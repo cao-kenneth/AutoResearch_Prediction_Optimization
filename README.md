@@ -16,7 +16,7 @@ Performance is evaluated using the **Brier score**.
 
 * Source: Hand-picked binary questions from **Metaculus**
 * Domain: Primarily political and economic forecasting
-* Format: CSV file (`RawData.csv`)
+* Format: CSV file (`data/RawData.csv`)
 
 Each row contains:
 
@@ -31,14 +31,35 @@ Each row contains:
 
 ```
 .
-├── RawData.csv                # original dataset
-├── train.csv                 # cleaned 60% dataset (generated)
-├── holdout_40_unused.csv     # unused 40% holdout set
-├── clean.py                  # data cleaning + splitting
-├── baseline.py               # LLM baseline evaluation
-├── train_predictions.csv     # full predictions output
-├── train_valid_predictions.csv  # parsed + valid predictions
-└── README.md
+├── README.md                         # project overview and instructions
+├── program.md                        # experiment protocol for prompt optimization
+├── weekly_report.md                  # progress notes/reporting
+├── prompt.txt                        # current forecasting prompt template
+├── clean.py                          # cleans raw data and creates train/holdout splits
+├── baseline.py                       # baseline LLM forecasting and Brier evaluation
+├── model.py                          # runs forecasting with prompt.txt and saves run outputs
+├── optimize_prompt.py                # prompt optimization loop over prior predictions
+├── test.py                           # single-row Codex CLI smoke test
+├── test1.py                          # two-row Codex CLI smoke test
+├── train_valid_predictions.csv       # parsed valid baseline predictions
+├── data/
+│   ├── RawData.csv                   # original hand-picked Metaculus dataset
+│   ├── train.csv                     # cleaned 60% training/evaluation split
+│   └── test_40_unused.csv            # reserved 40% holdout split
+└── outputs/
+    ├── train_predictions.csv         # full baseline prediction output
+    ├── run_001/
+    │   ├── predictions.csv           # model predictions for this run
+    │   ├── prompt.txt                # prompt used for this run
+    │   └── metrics.json              # Brier score and run metadata
+    ├── run_002/
+    │   ├── predictions.csv
+    │   ├── prompt.txt
+    │   └── metrics.json
+    └── run_003/
+        ├── predictions.csv
+        ├── prompt.txt
+        └── metrics.json
 ```
 
 ---
@@ -78,8 +99,8 @@ This will:
 * Split data into **60% train / 40% holdout**
 * Save:
 
-  * `train.csv` (used for baseline)
-  * `holdout_40_unused.csv` (not used yet)
+  * `data/train.csv` (used for baseline)
+  * `data/test_40_unused.csv` (not used yet)
 
 ---
 
@@ -98,7 +119,7 @@ This will:
   * One paragraph reasoning
 * Save predictions to:
 
-  * `train_predictions.csv`
+  * `outputs/train_predictions.csv`
 * Compute:
 
   * LLM Brier score

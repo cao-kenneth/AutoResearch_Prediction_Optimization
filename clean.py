@@ -2,6 +2,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 RANDOM_STATE = 42
+RAW_DATA_PATH = "data/RawData.csv"
+TRAIN_PATH = "data/train.csv"
+TEST_PATH = "data/test_40_unused.csv"
 
 
 def resolution_to_binary(x):
@@ -24,7 +27,7 @@ def format_forecast_date(date_value):
 
 
 def main():
-    df = pd.read_csv("RawData.csv")
+    df = pd.read_csv(RAW_DATA_PATH)
 
     # deterministic 60/40 split, stratified by Resolution
     train_df, test_df = train_test_split(
@@ -44,15 +47,15 @@ def main():
     clean_train["resolution_binary"] = clean_train["Resolution"].apply(resolution_to_binary)
     clean_train["community_prob"] = clean_train["ForecastDate_Probability"].apply(prob_str_to_decimal)
 
-    clean_train.to_csv("train.csv", index=False)
+    clean_train.to_csv(TRAIN_PATH, index=False)
 
-    test_df.to_csv("test_40_unused.csv", index=False)
+    test_df.to_csv(TEST_PATH, index=False)
 
     print(f"Total rows: {len(df)}")
     print(f"Train rows (60%): {len(clean_train)}")
     print(f"Test rows (40%): {len(test_df)}")
-    print("Saved cleaned training data to train.csv")
-    print("Saved unused test data to test_40_unused.csv")
+    print(f"Saved cleaned training data to {TRAIN_PATH}")
+    print(f"Saved unused test data to {TEST_PATH}")
 
 
 if __name__ == "__main__":

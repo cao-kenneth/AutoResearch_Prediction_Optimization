@@ -1,8 +1,13 @@
 import pandas as pd
 import re
 import subprocess
+import os
 
 CODEX_TIMEOUT_SECONDS = 180
+TRAIN_PATH = "data/train.csv"
+OUTPUT_DIR = "outputs"
+TRAIN_PREDICTIONS_PATH = os.path.join(OUTPUT_DIR, "train_predictions.csv")
+TRAIN_VALID_PREDICTIONS_PATH = os.path.join(OUTPUT_DIR, "train_valid_predictions.csv")
 
 def build_prompt(question, forecast_date):
     return f"""
@@ -43,7 +48,7 @@ def parse_response(text):
 def get_model_response(prompt):
     try:
         result = subprocess.run(
-            ["codex", "exec", prompt],
+            ["codex", "exec", "-m", "gpt-5.4", prompt],
             input="",
             capture_output=True,
             text=True,
@@ -61,7 +66,8 @@ def get_model_response(prompt):
 
 
 def main():
-    df = pd.read_csv("train.csv")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    df = pd.read_csv(TRAIN_PATH)
 
     llm_probs = []
     llm_reasons = []
@@ -112,8 +118,8 @@ def main():
     llm_brier = valid_df["llm_brier_row"].mean()
     community_brier = valid_df["community_brier_row"].mean()
 
-    df.to_csv("train_predictions.csv", index=False)
-    valid_df.to_csv("train_valid_predictions.csv", index=False)
+    df.to_csv(TRAIN_PREDICTIONS_PATH, index=False)
+    valid_df.to_csv(TRAIN_VALID_PREDICTIONS_PATH, index=False)
 
     print(f"\nValid parsed rows: {len(valid_df)} / {len(df)}")
     print(f"LLM Brier Score: {llm_brier}")

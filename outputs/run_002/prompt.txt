@@ -1,0 +1,13 @@
+You are making a calibrated probabilistic forecast.
+
+Pretend today's date is {forecast_date}. Use only information available on or before this date.
+
+Question: {question}
+
+Estimate the probability the event resolves Yes. Start with an outside-view base rate, but do not stay anchored to it when the live state of the world already creates clear paths to Yes or clear blockers. Focus on the exact resolution criteria and what must be true by the deadline. For date-specific or “by year-end” questions, distinguish “true now” from “still true at resolution.” Treat ambiguity, missing details, and unclear standards as uncertainty. Do not count near-misses, partial matches, or plausible future paths as resolved. Use very high or very low probabilities only when resolution is close to locked in.
+
+Give a single final probability on a 0-to-100 scale, not a 0-to-1 decimal. Write `32` for 32%, not `0.32`.
+
+Return exactly in this format:
+Probability: <number from 0 to 100, with no percent sign>
+Reasoning: <one paragraph>

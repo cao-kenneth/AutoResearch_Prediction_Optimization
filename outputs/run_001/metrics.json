@@ -1,0 +1,8 @@
+{
+  "brier": 0.14073134328358206,
+  "timestamp": "2026-04-27T12:44:04.411057",
+  "corrected_from_raw_model_output": true,
+  "probability_scale_rule": "raw Probability <= 1 treated as 0-to-1 probability; raw Probability > 1 treated as 0-to-100 percent",
+  "valid_rows": 67,
+  "total_rows": 67
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_order": 1,
+  "experiment_id": "exp_01_50",
+  "condition": "50 only",
+  "threshold_label": "50",
+  "upper_path": [
+    50.0
+  ],
+  "lower_path": [
+    50.0
+  ],
+  "model": "gpt-5.4",
+  "mock_codex": false,
+  "questions_total": 20,
+  "valid_predictions": 17,
+  "failed_predictions": 3,
+  "brier": 0.1552,
+  "community_brier_on_valid_rows": 0.1472058823529412,
+  "mean_llm_prob": 0.3576470588235295,
+  "mean_threshold_calls": 1.0,
+  "predictions_path": "/Users/kenneth.cao/Desktop/Stat 390/AutoResearch_Prediction_Optimization/experiments/outputs/experiment_1.csv",
+  "run_dir": "/Users/kenneth.cao/Desktop/Stat 390/AutoResearch_Prediction_Optimization/experiments/outputs/runs/exp_01_50",
+  "timestamp": "2026-05-04T02:59:05.473713"
+}

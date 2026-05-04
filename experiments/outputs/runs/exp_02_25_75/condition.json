@@ -1,0 +1,11 @@
+{
+  "order": 2,
+  "experiment_id": "exp_02_25_75",
+  "condition": "50 plus 25/75 buckets",
+  "upper_thresholds": [
+    75.0
+  ],
+  "lower_thresholds": [
+    25.0
+  ]
+}

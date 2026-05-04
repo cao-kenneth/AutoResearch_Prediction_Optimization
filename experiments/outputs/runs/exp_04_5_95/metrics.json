@@ -1,0 +1,30 @@
+{
+  "experiment_order": 4,
+  "experiment_id": "exp_04_5_95",
+  "condition": "50 plus 25/75, 10/90, and 5/95 buckets",
+  "threshold_label": "50, 25/75, 10/90, 5/95",
+  "upper_path": [
+    50.0,
+    75.0,
+    90.0,
+    95.0
+  ],
+  "lower_path": [
+    50.0,
+    25.0,
+    10.0,
+    5.0
+  ],
+  "model": "gpt-5.4",
+  "mock_codex": false,
+  "questions_total": 20,
+  "valid_predictions": 15,
+  "failed_predictions": 5,
+  "brier": 0.13584666666666664,
+  "community_brier_on_valid_rows": 0.1617333333333333,
+  "mean_llm_prob": 0.22333333333333327,
+  "mean_threshold_calls": 3.2,
+  "predictions_path": "/Users/kenneth.cao/Desktop/Stat 390/AutoResearch_Prediction_Optimization/experiments/outputs/experiment_4.csv",
+  "run_dir": "/Users/kenneth.cao/Desktop/Stat 390/AutoResearch_Prediction_Optimization/experiments/outputs/runs/exp_04_5_95",
+  "timestamp": "2026-05-04T07:12:06.523903"
+}

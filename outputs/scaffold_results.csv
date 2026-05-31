@@ -1,0 +1,9 @@
+split,config,rows,valid_rows,failures,brier,mean_probability,calls_per_question,description
+dev,baseline_one_shot,33,33,0,0.2762242424242424,0.3806060606060606,1,Single direct forecast.
+dev,premortem_one_shot,33,33,0,0.24777272727272728,0.3851515151515152,1,"Initial probability, likely failure modes, adjusted final probability."
+dev,self_critique,33,33,0,0.255969696969697,0.3618181818181818,2,Initial forecast followed by one global critique/revision call.
+dev,three_perspectives_judge,33,33,0,0.259069696969697,0.37666666666666665,4,"Base-rate, skeptic, and optimist forecasts followed by a judge."
+validation,baseline_one_shot,34,34,0,0.14830294117647058,0.37382352941176467,1,Single direct forecast.
+validation,premortem_one_shot,34,34,0,0.15024705882352943,0.36352941176470593,1,"Initial probability, likely failure modes, adjusted final probability."
+validation,self_critique,34,34,0,0.1474970588235294,0.3414705882352941,2,Initial forecast followed by one global critique/revision call.
+validation,three_perspectives_judge,34,34,0,0.1521470588235294,0.36764705882352944,4,"Base-rate, skeptic, and optimist forecasts followed by a judge."

@@ -5,6 +5,8 @@ RANDOM_STATE = 42
 RAW_DATA_PATH = "data/RawData.csv"
 TRAIN_PATH = "data/train.csv"
 TEST_PATH = "data/test_40_unused.csv"
+DEV_PATH = "data/dev.csv"
+VALIDATION_PATH = "data/validation.csv"
 
 
 def resolution_to_binary(x):
@@ -47,14 +49,30 @@ def main():
     clean_train["resolution_binary"] = clean_train["Resolution"].apply(resolution_to_binary)
     clean_train["community_prob"] = clean_train["ForecastDate_Probability"].apply(prob_str_to_decimal)
 
+    dev_df, validation_df = train_test_split(
+        clean_train,
+        test_size=0.50,
+        random_state=RANDOM_STATE,
+        stratify=clean_train["Resolution"]
+    )
+
+    dev_df = dev_df.reset_index(drop=True)
+    validation_df = validation_df.reset_index(drop=True)
+
     clean_train.to_csv(TRAIN_PATH, index=False)
+    dev_df.to_csv(DEV_PATH, index=False)
+    validation_df.to_csv(VALIDATION_PATH, index=False)
 
     test_df.to_csv(TEST_PATH, index=False)
 
     print(f"Total rows: {len(df)}")
     print(f"Train rows (60%): {len(clean_train)}")
+    print(f"Dev rows (50% of train): {len(dev_df)}")
+    print(f"Validation rows (50% of train): {len(validation_df)}")
     print(f"Test rows (40%): {len(test_df)}")
     print(f"Saved cleaned training data to {TRAIN_PATH}")
+    print(f"Saved scaffold dev data to {DEV_PATH}")
+    print(f"Saved scaffold validation data to {VALIDATION_PATH}")
     print(f"Saved unused test data to {TEST_PATH}")
 
 

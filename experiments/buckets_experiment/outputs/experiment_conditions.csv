@@ -1,0 +1,6 @@
+experiment_order,experiment_id,controlled_variable_changed,condition,threshold_label,upper_path,lower_path,fixed_sample_size,fixed_model,fixed_metric
+1,exp_01_50,maximum symmetric bucket depth,50 only,50,50,50,20,gpt-5.4,Brier score
+2,exp_02_25_75,maximum symmetric bucket depth,50 plus 25/75 buckets,"50, 25/75",50 -> 75,50 -> 25,20,gpt-5.4,Brier score
+3,exp_03_10_90,maximum symmetric bucket depth,50 plus 25/75 and 10/90 buckets,"50, 25/75, 10/90",50 -> 75 -> 90,50 -> 25 -> 10,20,gpt-5.4,Brier score
+4,exp_04_5_95,maximum symmetric bucket depth,"50 plus 25/75, 10/90, and 5/95 buckets","50, 25/75, 10/90, 5/95",50 -> 75 -> 90 -> 95,50 -> 25 -> 10 -> 5,20,gpt-5.4,Brier score
+5,exp_05_1_99,maximum symmetric bucket depth,"50 plus 25/75, 10/90, 5/95, and 1/99 buckets","50, 25/75, 10/90, 5/95, 1/99",50 -> 75 -> 90 -> 95 -> 99,50 -> 25 -> 10 -> 5 -> 1,20,gpt-5.4,Brier score

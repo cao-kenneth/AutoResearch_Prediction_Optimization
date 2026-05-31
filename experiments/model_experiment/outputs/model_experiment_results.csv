@@ -1,0 +1,4 @@
+split,config,model,temperature,requested_temperature,tool,tool_choice,rows,valid_rows,failures,brier,mean_probability,calls_per_question,mean_web_search_calls,rate_limit_failures,parse_failures,description
+test,community,fixed,fixed,fixed,none,none,45,45,0,0.14458444444444446,0.3597777777777778,0,0.0,0,0,Community forecast from source data.
+test,guess_50_50,fixed,fixed,fixed,none,none,45,45,0,0.25,0.5,0,0.0,0,0,Fixed 50/50 baseline.
+test,p1_sk_pm0_agg_mean_ref_none,gpt-5.5,omitted,0.0,web_search,required,45,38,7,0.1570060855263158,0.30414473684210525,1,1.4736842105263157,0,5,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=none

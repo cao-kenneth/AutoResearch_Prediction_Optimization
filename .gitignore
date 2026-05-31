@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.DS_Store
 
 # C extensions
 *.so
@@ -205,3 +206,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-local generated caches and scratch outputs
+**/.matplotlib/
+baseline_outputs/
+outputs/raw/
+outputs/api_smoke/
+outputs/optimizer_smoke/
+outputs/optimizer/raw/
+outputs/optimizer/optimizer_raw/
+outputs/final_test_sensitivity/temp_*/
+experiments/model_experiment/outputs/raw/
+experiments/model_experiment/outputs/mock_smoke/

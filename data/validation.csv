@@ -1,0 +1,35 @@
+Question ID,Question,Forecast_Date,ForecastDate_Probability,Resolution,Closing_Date,Tournament,forecast_date_formatted,resolution_binary,community_prob
+40181,Will Russia’s annual GDP growth rate exceed 1.5% in Q3 2025?,10/8/25,15%,No,11/14/25,RAND x Metaculus 2026,"October 08, 2025",0,0.15
+22390,"Will Donald Trump file a new writ petition or application for stay with the US Supreme Court between April 16 and May 19, 2024?",4/21/24,40%,No,5/19/24,Bridgewater 2024,"April 21, 2024",0,0.4
+20783,Will Ali Khamenei cease to be supreme leader of Iran in 2024?,1/21/24,15%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.15
+31252,Will US federal interest rates at the end of 2025 be lower than at the end of 2024?,2/1/25,77%,Yes,1/1/26,ACX 2025,"February 01, 2025",1,0.77
+31620,Will Israel establish direct governmental control of the Gaza Strip in 2025?,2/1/25,9%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.09
+40207,"Will Secret of Secrets be the top of the New York Times Hardcover Fiction list for the week of November 2, 2025?",10/5/25,14%,No,10/22/25,RAND x Metaculus 2026,"October 05, 2025",0,0.14
+31307,Will Nvidia outperform the S&P 500 in 2025?,2/1/25,70%,Yes,1/1/26,ACX 2025,"February 01, 2025",1,0.7
+20753,Will Benjamin Netanyahu remain Prime Minister of Israel throughout 2024?,1/21/24,50%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.5
+40182,"Will France announce a nuclear deterrent extension agreement with a European country before December 16, 2025?",10/15/25,14%,No,12/16/25,RAND x Metaculus 2026,"October 15, 2025",0,0.14
+31045,Will Jerome Powell cease to hold the office of Chair of the Federal Reserve before 2026?,2/1/25,20%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.2
+20775,Will SpaceX's Starship reach orbit in 2024?,1/21/24,71%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.71
+20758,Will OpenAI publish information describing Q* (Q-Star) in 2024?,1/21/24,35%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.35
+41699,Will U.S. consumer sentiment in March 2026 be higher than in February 2026?,2/4/26,55%,No,3/1/25,Bridgewater 2026,"February 04, 2026",0,0.55
+41361,"In February 2026, will the weekly amount of finished motor gasoline supplied in the U.S. be highest in the final week of the month?",1/31/26,28%,No,3/1/26,Bridgewater 2026,"January 31, 2026",0,0.28
+22308,"Will Israel and Hamas reach a ceasefire deal before May 16, 2024?",4/20/24,3%,No,5/16/24,Bridgewater 2024,"April 20, 2024",0,0.03
+40215,Will the upper bound of the federal funds rate be 4.00% or lower at the October 2025 FOMC meeting?,10/6/25,90%,Yes,11/28/25,RAND x Metaculus 2026,"October 06, 2025",1,0.9
+20747,Will Bitcoin go up over 2024?,1/21/24,65%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.65
+31258,Will Google's search market share drop below 85% in 2025?,2/1/25,19%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.19
+40194,"Will the Cambodia-Thailand conflict result in ⩾20 deaths between October 1 and December 15, 2025?",10/9/25,20%,Yes,12/15/25,RAND x Metaculus 2026,"October 09, 2025",1,0.2
+34454,"Will OpenAI publicly release the full o3 model before March 28, 2025?",2/8/25,70%,No,3/28/25,Bridgewater 2025,"February 08, 2025",0,0.7
+20748,Will the FDA or EMA withdraw approval of semaglutide for the treatment of obesity or diabetes in 2024?,1/21/24,8%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.08
+41356,"Will any US electric utility announce a $5 billion capex increase, citing data center demand, between January 13 and March 12, 2026?",1/13/26,65%,Yes,3/12/26,Bridgewater 2026,"January 13, 2026",1,0.65
+31118,Will Benjamin Netanyahu remain Prime Minister of Israel throughout 2025?,2/1/25,70%,Yes,1/1/26,ACX 2025,"February 01, 2025",1,0.7
+40186,Will the EU have an average annual inflation rate of at least 2.5% for any month before December 2025?,10/6/25,55%,Yes,12/1/25,RAND x Metaculus 2026,"October 06, 2025",1,0.55
+40183,"Will North Korea conduct a nuclear test before December 16, 2025?",10/10/25,5%,No,12/16/25,RAND x Metaculus 2026,"October 10, 2025",0,0.05
+31271,Will real housing prices in the US increase more in 2025 compared to 2024?,2/1/25,55%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.55
+20776,Will cannabis be removed from Schedule I of the Controlled Substance Act before 2025?,1/21/24,35%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.35
+20759,Will an AI win a coding contest on Codeforces in 2024?,1/21/24,20%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.2
+20720,Will annual US core CPI inflation be above 3% in December 2024?,1/21/24,43%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.43
+31253,Will the US unemployment rate in November 2025 be below the rate in November 2024?,2/1/25,40%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.4
+20785,Will SpaceX attempt to catch a Starship booster with the tower in 2024?,1/21/24,32%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.32
+40726,Will Nvidia's stock price reach a new record close in February 2026?,1/31/26,38%,No,3/1/26,Bridgewater 2026,"January 31, 2026",0,0.38
+31324,Will mifepristone become significantly restricted or illegal to prescribe for abortions across the US before 2026?,2/1/25,20%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.2
+22726,"On May 18th, will Kyle, Texas set the world record for largest gathering of individuals with the same first name?",5/3/24,10%,No,5/18/24,Bridgewater 2024,"May 03, 2024",0,0.1

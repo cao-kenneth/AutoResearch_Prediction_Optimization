@@ -1,0 +1,13 @@
+split,temperature,config,rows,valid_rows,failures,brier,mean_probability,calls_per_question,description
+test,fixed,community,45,45,0,0.14458444444444446,0.3597777777777778,0,Community forecast from source data.
+test,fixed,guess_50_50,45,45,0,0.25,0.5,0,Fixed 50/50 baseline.
+test,0.0,baseline_one_shot,45,45,0,0.19626444444444438,0.39622222222222236,1,
+test,0.0,premortem_one_shot,45,45,0,0.21401920000000005,0.3681777777777778,1,
+test,0.0,self_critique,45,45,0,0.1956322,0.3659333333333334,2,
+test,0.0,three_perspectives_judge,45,45,0,0.20268444444444442,0.39111111111111113,4,
+test,0.0,p1_sk_pm0_agg_mean_ref_none,45,44,1,0.20955227272727273,0.33659090909090905,1,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=none
+test,0.7,baseline_one_shot,45,45,0,0.21516222222222223,0.40733333333333327,1,
+test,0.7,premortem_one_shot,45,45,0,0.22396055555555555,0.3783333333333333,1,
+test,0.7,self_critique,45,45,0,0.18813611111111112,0.3756666666666666,2,
+test,0.7,three_perspectives_judge,45,45,0,0.20261386666666673,0.3806222222222223,4,
+test,0.7,p1_sk_pm0_agg_mean_ref_none,45,45,0,0.2468911111111111,0.35577777777777775,1,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=none

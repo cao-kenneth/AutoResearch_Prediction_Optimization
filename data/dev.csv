@@ -1,0 +1,34 @@
+Question ID,Question,Forecast_Date,ForecastDate_Probability,Resolution,Closing_Date,Tournament,forecast_date_formatted,resolution_binary,community_prob
+20771,Will Mike Johnson remain Speaker for all of 2024?,1/21/24,70%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.7
+20774,"Will there be a US government shutdown before January 1, 2025?",1/21/24,25%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.25
+31044,Will the US Congress pass a bill implementing Trump's tariff policies in 2025?,2/1/25,11%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.11
+22725,"As of May 21, 2024, will OpenAI report at least 99.9% uptime for ChatGPT for May 2024?",4/30/24,35%,No,5/21/24,Bridgewater 2024,"April 30, 2024",0,0.35
+20754,Will the WHO declare a global health emergency (PHEIC) in 2024?,1/21/24,26%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.26
+20781,Will X declare bankruptcy in 2024?,1/21/24,10%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.1
+22526,"Will Mike Johnson be Speaker of the House on May 20, 2024?",4/24/24,90%,Yes,5/20/24,Bridgewater 2024,"April 24, 2024",1,0.9
+31303,Will inflation-adjusted gas prices rise in the US in 2025?,2/1/25,40%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.4
+31098,"Will Donald Trump have a positive net favorability rate on December 20, 2025, according to 538?",2/1/25,20%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.2
+20790,Will there be a serious radiation incident at any nuclear plant in Ukraine before 2025?,1/21/24,8%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.08
+22385,"Will SpaceX's fourth Starship integrated flight test reach an altitude of at least 200 kilometers before May 20, 2024?",4/19/24,65%,No,5/20/24,Bridgewater 2024,"April 19, 2024",0,0.65
+41037,"Will the United States gain less than 100,000 new nonfarm jobs between December 2025 and February 2026?",1/22/26,70%,Yes,3/1/26,Bridgewater 2026,"January 22, 2026",1,0.7
+22914,"Before May 20, 2024, will it be announced that Minouche Shafik will no longer be President of Columbia University?",5/1/24,5%,No,5/20/24,Bridgewater 2024,"May 01, 2024",0,0.05
+22382,"Will Joe Biden issue his 11th veto before May 17, 2024?",4/19/24,45%,Yes,5/17/24,Bridgewater 2024,"April 19, 2024",1,0.45
+40195,"Will South Korea sign arms export deals worth >$5bn with any country between October 1 and December 15, 2025?",10/10/25,35%,No,12/15/25,RAND x Metaculus 2026,"October 10, 2025",0,0.35
+20757,Will the 2024 light duty electric vehicle sales share exceed 11% in the US through November 2024?,1/21/24,68%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.68
+20692,Will Claudia Sheinbaum win the 2024 Mexican Presidential Election?,1/21/24,80%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.8
+40208,"On December 1, 2025, will Nvidia be the world's most valuable company by market cap?",10/8/25,80%,Yes,12/1/25,RAND x Metaculus 2026,"October 08, 2025",1,0.8
+20749,Will there be faithless electors in the 2024 US Presidential election?,1/21/24,40%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.4
+40191,Will the Democratic party win the Virginia gubernatorial election of 2025?,10/6/25,96%,Yes,11/4/25,RAND x Metaculus 2026,"October 06, 2025",1,0.96
+40201,Will Philadelphia Union win the 2025 MLS championship for US soccer?,10/11/25,14%,No,12/5/25,RAND x Metaculus 2026,"October 11, 2025",0,0.14
+31298,"Will there be at least 1,000 deaths due to direct conflict between Israel and Iran in 2025?",2/1/25,15%,Yes,1/1/26,ACX 2025,"February 01, 2025",1,0.15
+31348,Will the US government release additional Epstein documents in 2025?,2/1/25,32%,Yes,1/1/26,ACX 2025,"February 01, 2025",1,0.32
+31326,"Will OpenAI top the Chatbot Arena Leaderboard on December 31, 2025?",2/1/25,38%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.38
+22383,Will the Kingdom of the Planet of the Apes domestic opening box office set a new franchise record?,4/18/24,8%,No,5/10/24,Bridgewater 2024,"April 18, 2024",0,0.08
+31255,"On December 31, 2025, will Google, Meta, Amazon, Tesla, or X accept crypto as a payment?",2/1/25,60%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.6
+22787,"Will the San Francisco Bay Area experience an earthquake of at least 3.0 magnitude during the seven-day period ending midday on May 14th, 2024?",5/7/24,13%,No,5/14/24,Bridgewater 2024,"May 07, 2024",0,0.13
+31123,Will Iran possess a nuclear weapon before 2026?,2/1/25,12%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.12
+20761,Will Ukraine control central Bakhmut at the end of 2024?,1/21/24,25%,No,1/1/25,ACX 2024,"January 21, 2024",0,0.25
+40216,Will the upper bound of the federal funds rate be 4.00% or higher at the December 2025 FOMC meeting?,10/10/25,33%,No,12/9/25,RAND x Metaculus 2026,"October 10, 2025",0,0.33
+31296,Will at least twice as many deportations by U.S. ICE occur in Fiscal Year 2025 compared with Fiscal Year 2024?,2/1/25,48%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.48
+20786,Will Donald Trump be convicted of a felony before the 2024 presidential election?,1/21/24,36%,Yes,1/1/25,ACX 2024,"January 21, 2024",1,0.36
+31130,Will major components of the Affordable Care Act be repealed or curtailed before 2026?,2/1/25,25%,No,1/1/26,ACX 2025,"February 01, 2025",0,0.25

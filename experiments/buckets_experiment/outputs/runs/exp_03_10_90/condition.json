@@ -1,0 +1,13 @@
+{
+  "order": 3,
+  "experiment_id": "exp_03_10_90",
+  "condition": "50 plus 25/75 and 10/90 buckets",
+  "upper_thresholds": [
+    75.0,
+    90.0
+  ],
+  "lower_thresholds": [
+    25.0,
+    10.0
+  ]
+}

@@ -1,0 +1,49 @@
+split,config,rows,valid_rows,failures,brier,mean_probability,calls_per_question,description
+dev,p1_sk_pm0_agg_judge_ref_rare,33,33,0,0.21093030303030302,0.3506060606060606,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=rare_yes_audit
+dev,p1_sk_pm0_agg_mean_ref_self,33,33,0,0.21650303030303028,0.32606060606060605,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=self_critique
+dev,p1_sk_pm0_agg_judge_ref_self,33,33,0,0.22363636363636363,0.33757575757575764,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=self_critique
+dev,p1_sk_pm0_agg_mean_ref_rare,33,33,0,0.2243909090909091,0.3475757575757576,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=rare_yes_audit
+dev,p1_sk_pm0_agg_judge_ref_res,33,33,0,0.23519393939393937,0.31999999999999995,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=resolution_audit
+dev,p1_sk_pm0_agg_judge_ref_none,33,33,0,0.23733939393939396,0.3290909090909091,2,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=none
+dev,p1_sk_pm0_agg_mean_ref_none,33,33,0,0.2392787878787879,0.3375757575757576,1,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=none
+dev,p1_sk_pm0_agg_mean_ref_res,33,33,0,0.23968787878787878,0.33606060606060606,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=resolution_audit
+dev,p1_sk_pm1_agg_mean_ref_res,33,33,0,0.2454090909090909,0.34878787878787876,2,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=resolution_audit
+dev,premortem_one_shot,33,33,0,0.24777272727272728,0.3851515151515152,1,
+dev,p1_br_pm0_agg_judge_ref_self,33,33,0,0.25550606060606057,0.353030303030303,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=self_critique
+dev,p1_sk_pm1_agg_mean_ref_none,33,33,0,0.2556060606060606,0.3509090909090909,1,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=none
+dev,self_critique,33,33,0,0.255969696969697,0.3618181818181818,2,
+dev,three_perspectives_judge,33,33,0,0.259069696969697,0.37666666666666665,4,
+dev,p1_br_pm0_agg_mean_ref_res,33,33,0,0.2641787878787879,0.3645454545454545,2,perspectives=['base_rate']; premortem=off; aggregation=mean; refinement=resolution_audit
+dev,p1_br_pm0_agg_judge_ref_none,33,33,0,0.2645666666666666,0.38151515151515153,2,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=none
+dev,p1_sk_pm1_agg_mean_ref_rare,33,33,0,0.2648757575757576,0.39969696969696966,2,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=rare_yes_audit
+dev,p1_br_pm0_agg_judge_ref_rare,33,33,0,0.26564848484848486,0.4090909090909091,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=rare_yes_audit
+dev,p1_br_pm1_agg_mean_ref_self,33,33,0,0.26724545454545456,0.3718181818181819,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=self_critique
+dev,p1_br_pm0_agg_mean_ref_rare,33,33,0,0.2731242424242424,0.41545454545454547,2,perspectives=['base_rate']; premortem=off; aggregation=mean; refinement=rare_yes_audit
+dev,baseline_one_shot,33,33,0,0.2762242424242424,0.3806060606060606,1,
+dev,p1_br_pm1_agg_mean_ref_res,33,33,0,0.27657878787878787,0.3924242424242424,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=resolution_audit
+dev,p1_br_pm0_agg_judge_ref_res,33,33,0,0.28451818181818184,0.38575757575757574,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=resolution_audit
+dev,p1_br_pm1_agg_mean_ref_rare,33,33,0,0.2927666666666667,0.43969696969696975,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=rare_yes_audit
+validation,p1_sk_pm0_agg_mean_ref_none,34,34,0,0.13197941176470587,0.3120588235294117,1,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=none
+validation,p1_sk_pm0_agg_judge_ref_none,34,34,0,0.13248529411764706,0.3102941176470588,2,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=none
+validation,p1_sk_pm0_agg_judge_ref_res,34,34,0,0.13713529411764708,0.3152941176470588,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=resolution_audit
+validation,p1_sk_pm0_agg_mean_ref_rare,34,34,0,0.13894411764705883,0.35382352941176476,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=rare_yes_audit
+validation,p1_sk_pm1_agg_mean_ref_none,34,34,0,0.14371764705882356,0.3517647058823529,1,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=none
+validation,p1_sk_pm0_agg_mean_ref_res,34,34,0,0.14563823529411768,0.31264705882352944,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=resolution_audit
+validation,self_critique,34,34,0,0.14749705882352937,0.3414705882352941,2,
+validation,baseline_one_shot,34,34,0,0.14830294117647055,0.37382352941176467,1,
+validation,p1_sk_pm0_agg_judge_ref_rare,34,34,0,0.14831544117647058,0.3530882352941176,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=rare_yes_audit
+validation,premortem_one_shot,34,34,0,0.15024705882352937,0.36352941176470593,1,
+validation,p1_sk_pm0_agg_judge_ref_self,34,34,0,0.1510205882352941,0.3097058823529412,3,perspectives=['skeptic']; premortem=off; aggregation=judge; refinement=self_critique
+validation,p1_br_pm1_agg_mean_ref_res,34,34,0,0.15204117647058824,0.36058823529411765,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=resolution_audit
+validation,three_perspectives_judge,34,34,0,0.15214705882352939,0.36764705882352944,4,
+validation,p1_br_pm0_agg_mean_ref_res,34,34,0,0.15302132352941175,0.3789705882352941,2,perspectives=['base_rate']; premortem=off; aggregation=mean; refinement=resolution_audit
+validation,p1_br_pm0_agg_judge_ref_rare,34,34,0,0.15559779411764704,0.400735294117647,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=rare_yes_audit
+validation,p1_sk_pm0_agg_mean_ref_self,34,34,0,0.15569411764705882,0.30941176470588233,2,perspectives=['skeptic']; premortem=off; aggregation=mean; refinement=self_critique
+validation,p1_sk_pm1_agg_mean_ref_rare,34,34,0,0.15802426470588238,0.37867647058823534,2,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=rare_yes_audit
+validation,p1_br_pm0_agg_judge_ref_none,34,34,0,0.16011176470588237,0.3770588235294118,2,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=none
+validation,p1_br_pm0_agg_judge_ref_self,34,34,0,0.16177352941176468,0.37500000000000006,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=self_critique
+validation,p1_br_pm0_agg_judge_ref_res,34,34,0,0.16346764705882352,0.3755882352941176,3,perspectives=['base_rate']; premortem=off; aggregation=judge; refinement=resolution_audit
+validation,p1_br_pm1_agg_mean_ref_rare,34,34,0,0.16449779411764706,0.4060294117647059,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=rare_yes_audit
+validation,p1_br_pm1_agg_mean_ref_self,34,34,0,0.16670955882352942,0.3495588235294118,2,perspectives=['base_rate']; premortem=on; aggregation=mean; refinement=self_critique
+validation,p1_sk_pm1_agg_mean_ref_res,34,34,0,0.1689764705882353,0.32176470588235295,2,perspectives=['skeptic']; premortem=on; aggregation=mean; refinement=resolution_audit
+validation,p1_br_pm0_agg_mean_ref_rare,34,34,0,0.17634411764705882,0.415,2,perspectives=['base_rate']; premortem=off; aggregation=mean; refinement=rare_yes_audit

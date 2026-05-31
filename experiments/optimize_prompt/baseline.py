@@ -6,9 +6,10 @@ from pathlib import Path
 import pandas as pd
 
 CODEX_TIMEOUT_SECONDS = 180
-REPO_ROOT = Path(__file__).resolve().parent
+EXPERIMENT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = EXPERIMENT_DIR.parent.parent
 TRAIN_PATH = REPO_ROOT / "data" / "train.csv"
-OUTPUT_DIR = REPO_ROOT / "baseline_outputs"
+OUTPUT_DIR = EXPERIMENT_DIR / "outputs"
 TRAIN_PREDICTIONS_PATH = OUTPUT_DIR / "train_predictions.csv"
 TRAIN_VALID_PREDICTIONS_PATH = OUTPUT_DIR / "train_valid_predictions.csv"
 
